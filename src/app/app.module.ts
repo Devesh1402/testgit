@@ -18,6 +18,9 @@ import { PricingComponent } from './pricing/pricing.component';
 import { AboutComponent } from './about/about.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { LogingaurdGuard } from './logingaurd.guard';
+import { RegestarionPageComponent } from './registration/componants/regestarion-page/regestarion-page.component';
+import { RegestarionAdminComponent } from './registration/componants/regestarion-admin/regestarion-admin.component';
+import { RegestarionuserComponent } from './registration/componants/regestarionuser/regestarionuser.component';
 
 
 @NgModule({
@@ -36,6 +39,9 @@ import { LogingaurdGuard } from './logingaurd.guard';
     FeaturesComponent,
     PricingComponent,
     AboutComponent,
+    RegestarionPageComponent,
+    RegestarionAdminComponent,
+    RegestarionuserComponent,
 
   ],
   imports: [
