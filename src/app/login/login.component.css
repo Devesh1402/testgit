@@ -1,0 +1,54 @@
+
+body {
+  background: linear-gradient(to right top, #a8bbea, #2f343f, #383d4a, #404655, #494f60);
+  background: #83a1f4;
+  margin: 0;
+}
+
+* {
+  font-family: 'Julius Sans One', sans-serif;
+  letter-spacing: 3px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  background:  #ffffff;
+  margin: 20px 50px;
+  padding: 30px;
+  width: 320px;
+  height: 380px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 9px 3px #c1cff6;
+}
+h1 {
+  color: #6083e4;
+  margin: 30px 0 50px 0;
+}
+
+
+button {
+  background: #6083e4;
+  border: 1px solid #0a63bd;
+  margin: 20px 15px 20px 15px;
+  color: #4B5F5B;
+}
+label{
+  text-align: start;
+}
+a {
+  color: #1a1900;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: bolder;
+  opacity: 0.6;
+  transition: all 300ms ease-in-out;
+
+}

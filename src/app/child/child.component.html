@@ -1,0 +1,10 @@
+<div class="box float-right" [ngClass]="{redbox: boxcolor =='red',greenbox: boxcolor == 'green',float:float}">
+      <input type="text" placeholder={{placeholdertext}} #inpVal />
+      <br>
+      <app-custom-btn [btnname]="'Create'" [btnclass]="'btn btn-success'"
+      (callbackFunction)="onCreate(inpVal)"></app-custom-btn>
+      <p *ngIf="count">Total User : {{count}}</p>
+  </div>
+
+
+

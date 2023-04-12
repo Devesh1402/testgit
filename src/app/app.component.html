@@ -1,0 +1,80 @@
+<app-header></app-header>
+<router-outlet></router-outlet>
+<app-footer></app-footer>
+<!--
+<div class="container px-4" >
+  <div>
+    <h2>Parent</h2>
+  </div>
+  <div class="row text-center">
+<div class="col p-3 border ">
+  <h3>User</h3>
+  <table class="table">
+    <tr  *ngFor="let user of username;index as i ">
+      <td>{{user}}</td>
+      <td><app-custom-btn [btnname]="'remove'" [btnclass]="'btn btn-link'" (click)="removeuser(i)"></app-custom-btn></td>
+
+    </tr>
+  </table>
+
+</div>
+<div class="col p-3 border bg-light">
+  <h3>Admin</h3>
+  <table class="table table-hover">
+    <tr  *ngFor="let adm of admin;index as i">
+      <td>{{adm}}</td>
+      <td><app-custom-btn [btnname]="'remove'" [btnclass]="'btn btn-link'" (click)="removeadmin(i)"></app-custom-btn></td>
+
+    </tr>
+  </table>
+</div>
+</div>
+<br>
+<br>
+<table class="table table-striped table-hover">
+
+  {{userlist | json}}
+  -->
+<!--
+  <thead class="text-center text-uppercase" >
+    <tr>
+      <th>id</th>
+      <th>name</th>
+      <th>username</th>
+      <th>email</th>
+      <th>city</th>
+      <th>contact</th>
+      <th>website</th>
+      <th>company name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let list of userlist">
+      <td>{{list.id}}</td>
+      <td>{{list.name}}</td>
+      <td>{{list.username}}</td>
+      <td>{{list.email}}</td>
+      <td>{{list.address.city}}</td>
+      <td>{{list.phone}}</td>
+      <td>{{list.website}}</td>
+      <td>{{list.company.name}}</td>
+    </tr>
+  </tbody>
+
+
+</table>
+<br>
+<h2>Child</h2>
+<hr>
+<div>
+<div class= "px-4 row gx-5 text-center">
+<app-child [placeholdertext] = "'Create User' " [boxcolor]="'red'" (username)="adduser($event)" class="col text-center"></app-child>
+<app-child [placeholdertext] = "'Create Admin' " [boxcolor]="'green'" (username)="addadmin($event)"  [float]="'float'" class="col"></app-child>
+</div>
+</div>
+<hr>
+<br>
+<h2>Behavior Subject example</h2>
+<hr>
+<app-behavior-subject></app-behavior-subject>
+-->

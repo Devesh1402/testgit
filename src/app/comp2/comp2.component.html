@@ -1,0 +1,10 @@
+<div class="row gx-5">
+  <div class="col p-5 ">
+<h3>User Name : {{username}}</h3>
+<img src="./aab" [alt]="alter"/>
+<input type="text" class='m-4' #value/>
+<br>
+<button class="btn btn-success" (click)="update(value)">Update</button>
+<app-custom-btn [btnname]="'Create'" [btnclass]="'btn btn-success'" (click)="update(value)"></app-custom-btn>
+</div>
+</div>

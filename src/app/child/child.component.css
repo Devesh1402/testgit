@@ -1,0 +1,23 @@
+.box{
+  width: 300px;
+}
+
+.redbox{
+  background-color: white;
+  border: 1px solid red;
+}
+
+.greenbox{
+  background-color: white;
+  border: 1px solid rgb(36, 214, 36);
+}
+.float{
+  float: right;
+}
+ input{
+  margin: 25px;
+  width: 240px;
+ }
+button{
+  text-align: left;
+}

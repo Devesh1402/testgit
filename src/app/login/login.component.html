@@ -1,0 +1,15 @@
+<div>
+  <form [formGroup]="loginform" (ngSubmit)="login()">
+    <h1>Log in</h1>
+    <label>UserName</label>
+    <input type="text" placeholder="Username" formControlName="email"/>
+    <div *ngIf="f['email'].invalid && submitted &&
+     (f['email'].dirty || f['email'].touched)" style="color:rgb(211, 91, 91)">Please enter valid email</div>
+    <br>
+
+    <label>Password</label>
+    <input type="password" placeholder="Password "formControlName="password"/>
+    <button type="submit" >login</button>
+    <a href="#">Forgot your password?</a>
+  </form>
+</div>
