@@ -13,7 +13,7 @@ const routes: Routes = [
   {path:'pricing',component:PricingComponent},
   {path:'aboutus',component:AboutComponent},
   {path:'home',component:HomeComponent, canActivate:[LogingaurdGuard] },
-  {path:'admin',loadChildren:()=>import('./module/admin/admin.module').then((m)=>m.AdminModule)},
+  {path:'admin',loadChildren:()=>import ('./module/admin/admin.module').then((m)=>m.AdminModule)},
   {path:'**', pathMatch:'full', redirectTo:'login'},
 ];
 
